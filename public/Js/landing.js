@@ -13,7 +13,7 @@ function showNextSlide() {
 }
 
 // Ganti gambar setiap 3 detik
-setInterval(showNextSlide, 3000);
+setInterval(showNextSlide, 2500);
 let currentKosIndex = 0;
 const kosSlides = document.querySelectorAll('.kos-slide');
 
@@ -33,9 +33,7 @@ const viewKosButtons = document.querySelectorAll('.view-kos-btn');
 
 viewKosButtons.forEach(button => {
     button.addEventListener('click', () => {
-        // Tambahkan logika untuk menampilkan kos yang relevan di sini
         alert("Menampilkan kos dekat: " + button.parentElement.querySelector('h3').innerText);
-        // Anda bisa mengarahkan pengguna ke halaman yang menampilkan kos terkait
     });
 });
 
