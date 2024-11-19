@@ -5,6 +5,7 @@ use App\Http\Controllers\kosmapusController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\UserInfoController;
 use App\Http\Controllers\AccountController;
+use App\Http\Controllers\DetailKostController;
 
 
 /*
@@ -63,5 +64,6 @@ Route::get('/faq', [KosmapusController::class, 'faq'])->name('faq');
 
 Route::get('/faq', [FaqController::class, 'index']);
 Route::post('/faq/store', [FaqController::class, 'store']);
+Route::get('/detailkost/{id}', [DetailKostController::class, 'show']);
 
 

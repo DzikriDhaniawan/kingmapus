@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 use App\Models\PersonalInformation;
 use App\Models\Kost;
+use App\Models\DetailKost;
 use Carbon\Carbon;
 
 class kosmapusController extends Controller
@@ -17,9 +18,10 @@ class kosmapusController extends Controller
      */
     public function index()
     {
-        //
-        return view('index');
+        $detailKost = DetailKost::all();
+        return view('index', compact('detailKost'));
     }
+    
 
     public function Login(Request $request)
     {
@@ -92,9 +94,10 @@ class kosmapusController extends Controller
 
     public function user()
     {
-        return view('user');
+        $detailKosts = DetailKost::all();
+        return view('user', compact('detailKosts'));
     }
-
+    
     public function detail()
     {
         return view('detail');

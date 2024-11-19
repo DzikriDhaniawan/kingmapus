@@ -117,94 +117,25 @@
     </div>
   </div>
   
-  <div class="recommendations">
-    <h2>Rekomendasi Kos</h2>
-    <div class="carousel">
-      <button class="arrow left" onclick="showPreviousCard()">
-        <i class="fas fa-chevron-left"></i>
-      </button>
-      
-<div class="cards">
-  <div class="card">
-    <img src="img/kos1.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Citra Indah</h3>
-      <p class="kos-address">Jl. Citra No. 10, Jakarta</p>
-    </div>
-  </div>     
-
-  <div class="card">
-    <img src="img/2.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Bahagia</h3>
-      <p class="kos-address">Jl. Bahagia No. 5, Bandung</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="img/3.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Suka Rame</h3>
-      <p class="kos-address">Jl. Rame No. 7, Yogyakarta</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="img/4.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Sejahtera</h3>
-      <p class="kos-address">Jl. Sejahtera No. 20, Surabaya</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="img/5.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Harmoni</h3>
-      <p class="kos-address">Jl. Harmoni No. 15, Medan</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="img/p2.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Ceria</h3>
-      <p class="kos-address">Jl. Ceria No. 8, Semarang</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="img/9.png" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Elok</h3>
-      <p class="kos-address">Jl. Elok No. 12, Bali</p>
-    </div>
-  </div>
-  
-  <div class="card">
-    <img src="img/11.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Damai</h3>
-      <p class="kos-address">Jl. Damai No. 3, Palembang</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="img/12.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Mewah</h3>
-      <p class="kos-address">Jl. Mewah No. 1, Makassar</p>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="img/21.jpg" class="rekomImg" alt="Kos Image">
-    <div class="card-description">
-      <h3 class="kos-name">Kos Nyaman</h3>
-      <p class="kos-address">Jl. Nyaman No. 6, Lombok</p>
-    </div>
-  </div>
-</div>
+  <div class="recommendations"> 
+    <h2>Rekomendasi Kos</h2> 
+    <div class="carousel"> 
+      <button class="arrow left" onclick="showPreviousCard()"> 
+        <i class="fas fa-chevron-left"></i> 
+      </button> 
+      <div class="cards"> 
+        @foreach($detailKosts as $detailKost) 
+        <div class="card"> 
+          <a href="/detailkost/{{ $detailKost->id }}"> 
+            <img src="{{ asset('img/' . $detailKost->gambarKos1) }}" class="rekomImg" alt="{{ $detailKost->nama }}"> 
+            <div class="card-description"> 
+              <h3 class="kos-name">{{ $detailKost->namaKos }}</h3> 
+              <p class="kos-address">{{ $detailKost->lokasiKos }}</p> 
+            </div> 
+          </a> 
+        </div> 
+        @endforeach 
+      </div>
 
       <button class="arrow right" onclick="showNextCard()">
         <i class="fas fa-chevron-right"></i>
