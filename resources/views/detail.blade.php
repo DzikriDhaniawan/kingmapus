@@ -60,7 +60,7 @@
         <div class="actions">
           <i class="fas fa-comment-dots chat-icon"></i>
           <a href="/pembayaran" style="text-decoration: none;">
-          <div class="button">Pesan Sekarang</div></a>
+          <div class="button">Pesannnnn Sekarang</div></a>
         </div>
       </div>
     </div>
