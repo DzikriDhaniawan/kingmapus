@@ -29,8 +29,7 @@
       <div class="gallery-item">
         <img src="img/d5.jpg" alt="Image 1">
       </div>
-    </div>
-    <!-- Tambahkan lebih banyak baris gambar sesuai kebutuhan -->
+    </div>  
   </div>
 
 </body>
