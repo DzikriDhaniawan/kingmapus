@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galeri Foto</title>
-  <link rel="stylesheet" href="{{ asset('css/gallery.css') }}"> <!-- Menghubungkan file CSS -->
+  <link rel="stylesheet" href="{{ asset('css/gallery.css') }}"> 
 </head>
 <body>
 

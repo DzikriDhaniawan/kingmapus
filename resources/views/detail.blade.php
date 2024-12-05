@@ -71,28 +71,33 @@
     <div class="section">
       <div class="title">Fasilitas</div>
       <div class="facilities">
-        <div>{{ $detailKost->fasilitas1 }}</div>
-        <div>{{ $detailKost->fasilitas2 }}</div>
-        <div>{{ $detailKost->fasilitas3 }}</div>
-        <div>{{ $detailKost->fasilitas4 }}</div>
-        <div>{{ $detailKost->fasilitas5 }}</div>
+        <div class="facility">{{ $detailKost->fasilitas1 }}</div>
+        <div class="facility">{{ $detailKost->fasilitas2 }}</div>
+        <div class="facility">{{ $detailKost->fasilitas3 }}</div>
+        <div class="facility">{{ $detailKost->fasilitas4 }}</div>
+        <div class="facility">{{ $detailKost->fasilitas5 }}</div>
       </div>
     </div>
     <div class="section">
       <div class="title">Aturan Menginap</div>
       <div class="rules">
-        <div>{{ $detailKost->aturan1 }}</div>
-        <div>{{ $detailKost->aturan2 }}</div>
-        <div>{{ $detailKost->aturan3 }}</div>
-        <div>{{ $detailKost->aturan4 }}</div>
-        <div>{{ $detailKost->aturan5 }}</div>
+        <div class="rule">{{ $detailKost->aturan2 }}</div>
+        <div class="rule">{{ $detailKost->aturan3 }}</div>
+        <div class="rule">{{ $detailKost->aturan4 }}</div>
+        <div class="rule">{{ $detailKost->aturan5 }}</div>
       </div>
     </div>
     <div class="section">
         <div class="title">Alamat Lengkap</div>
         <div class="address">
             <a href="{{ $detailKost->gmapsKos }}" target="_blank" class="map-link">
-                <iframe src="{{ $detailKost->gmapsKos }}" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://maps.google.com/maps?q=-8.681626,115.162476&hl=es;z=14&output=embed" 
+                  width="600" 
+                  height="300" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy">
+                </iframe>
             </a>
         </div>
     </div>    

@@ -130,7 +130,8 @@
             <img src="{{ asset('img/' . $detailKost->gambarKos1) }}" class="rekomImg" alt="{{ $detailKost->nama }}"> 
             <div class="card-description"> 
               <h3 class="kos-name">{{ $detailKost->namaKos }}</h3> 
-              <p class="kos-address">{{ $detailKost->lokasiKos }}</p> 
+              <p class="kos-harga">{{ $detailKost->hargaKos }}</p>
+              <p>{{ $detailKost->lokasiKos }}</p>
             </div> 
           </a> 
         </div> 
@@ -391,7 +392,7 @@
   let currentIndex = 0; // Indeks gambar saat ini
   const cards = document.querySelectorAll('.carousel .card'); // Ambil semua kartu
   const totalCards = cards.length; // Total jumlah kartu
-  const maxVisibleCards = 7; // Maksimal kartu yang ditampilkan
+  const maxVisibleCards = 10; // Maksimal kartu yang ditampilkan
 
   // Fungsi untuk menampilkan slide yang sesuai
   function showSlide(index) {

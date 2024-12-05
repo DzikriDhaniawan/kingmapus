@@ -266,7 +266,7 @@ class kosmapusController extends Controller
             'tanggal_keluar' => 'nullable|date',
             'durasi_sewa' => 'nullable|in:Harian,Bulanan,Tahunan',
             'harga_min' => 'nullable|numeric|min:0', // Validasi harga minimum
-            'harga_max' => 'nullable|numeric|min:0', // Validasi harga maksimum
+            'harga_max' => 'nullable|numeric|min:0', xml_error_string// Validasi harga maksimum
         ]);
 
         // Bangun query
