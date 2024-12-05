@@ -124,7 +124,7 @@
         <i class="fas fa-chevron-left"></i> 
       </button> 
       <div class="cards"> 
-        @foreach($detailKosts as $detailKost) 
+        @foreach($detailKosts as $detailKost)   
         <div class="card"> 
           <a href="/detailkost/{{ $detailKost->id }}"> 
             <img src="{{ asset('img/' . $detailKost->gambarKos1) }}" class="rekomImg" alt="{{ $detailKost->nama }}"> 
