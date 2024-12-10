@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="card">
-        <a href="/itbstikom                 bali" style= "text-decoration: none"><img src="img/kampus2.jpeg" alt="Algobash">
+        <a href="/itbstikombali" style= "text-decoration: none"><img src="img/kampus2.jpeg" alt="Algobash">
         <div class="info">
             <h3>ITB STIKOM Bali</h3>
             </a>
@@ -80,7 +80,7 @@
 <h1>Temukan Kos Berdasarkan Lokasi</h1>
 <div class="container">
     <div class="card">
-       <a href="" style= "text-decoration: none"> <img src="img/dps.jpg" alt="">
+       <a href="/denpasar" style= "text-decoration: none"> <img src="img/dps.jpg" alt="">
         <div class="info">
             <h3>Denpasar</h3>
         </div>
@@ -88,7 +88,7 @@
     </a>
 
     <div class="card">
-       <a href="" style= "text-decoration: none"></a> <img src="img/kuta.jpg" alt="">
+       <a href="/kuta" style= "text-decoration: none"></a> <img src="img/kuta.jpg" alt="">
         <div class="info">
             <h3>Kuta</h3>
         </div>
@@ -96,7 +96,7 @@
 
 
     <div class="card">
-       <a href="" style= "text-decoration: none"></a> <img src="img/ubud.jpg" alt="">
+       <a href="/ubud" style= "text-decoration: none"></a> <img src="img/ubud.jpg" alt="">
         <div class="info">
             <h3>Ubud</h3>
         </div>
