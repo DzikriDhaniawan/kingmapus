@@ -56,7 +56,7 @@
     </div>
       <div class="text">
         <h1>
-          Temukan Kost Impianmu XXXXX
+          Temukan Kost Impianmu
           <br/>
           dan Nikmati Hidup Kampus yang Lebih Baik!
         </h1>

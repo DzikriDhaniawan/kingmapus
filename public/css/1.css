@@ -703,7 +703,7 @@ body {
   .footer .left .download-buttons a {
     display: inline-block;
     padding: 10px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     border: 1px solid white;
     color: white;
     text-align: center;
@@ -712,6 +712,7 @@ body {
     width: 150px;
     background-color: transparent;
     transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 15px;
   }
   
   .footer .left .download-buttons a:hover {
