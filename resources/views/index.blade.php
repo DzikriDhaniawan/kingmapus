@@ -56,7 +56,7 @@
     </div>
       <div class="text">
         <h1>
-          Temukan Kost Impianmu
+          Temukan Kost Impianmu 223
           <br/>
           dan Nikmati Hidup Kampus yang Lebih Baik!
         </h1>
