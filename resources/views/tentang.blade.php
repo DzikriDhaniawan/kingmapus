@@ -17,7 +17,7 @@
      <img alt="Fully furnished room with modern furniture, AC, Wi-Fi, and water heater" height="200" src="https://storage.googleapis.com/a1aa/image/FrzXvkQsb4ZeZSmB23BC4j7W40VUzcTSHT94bzrhXp8Z3TzJA.jpg" width="600"/>
      <div class="feature-content">
       <h2 class="feature-title">
-       Fully furnished
+       Fasilitas
       </h2>
       <p class="feature-description">
        Hunian dilengkapi furniture lengkap termasuk AC, Wi-Fi, dan water heater.
@@ -72,7 +72,7 @@
      <img alt="People socializing and having fun together" height="200" src="https://storage.googleapis.com/a1aa/image/ONaMBmKQSgLeHiLjQyAPi17zfq2L04ovwAkMW4FofIMzdPNnA.jpg" width="600"/>
      <div class="feature-content">
       <h2 class="feature-title">
-       Komunitas Hangat &amp; Seru
+       Teman KosMapus
       </h2>
       <p class="feature-description">
         Perluas koneksi dengan gabung di Community Event bersama Rukees (penghuni KosMaPus) lainnya.
@@ -116,55 +116,3 @@
     </div>
    </div>
 </section>
-<div class="footer" id="footer">
-  <div class="left">
-    <div>
-      <div class="logo-container">
-          <img src="img/logo.png" alt="Logo" class="logo">
-      </div>
-      <div class="qr-code-container" style="margin-top: 20px;">
-          <img src="img/Untitled.png" alt="QR Code" class="qr-code">
-      </div>
-    </div>
-    <div class="download-buttons" style="margin-left: 20px; align-self: flex-end;">
-      <a href="#">Download Aplikasi</a>
-      <a href="#">Masuk / Daftar</a>
-    </div>
-  </div>
-  <div class="right">
-    <div class="column">
-      <h3>Resource</h3>
-      <p><a href="#" style="color: white;">Tentang KosMaPus</a></p>
-      <p><a href="#" style="color: white;">FAQ</a></p>
-      <p><a href="#" style="color: white;">Karir</a></p>
-      <p><a href="#" style="color: white;">Stories</a></p>
-    </div>
-    <div class="column">
-      <h3 style="margin-bottom: 20px;">Support</h3>
-      <p><i class="fab fa-whatsapp"></i> +62 811-154-6477</p>
-      <p><i class="fas fa-envelope"></i> info@kosmapus.co</p>
-      <p>Jam Operasional</p>
-      <p>Senin - Jumat: 10.00 - 19.00</p>
-      <p>Sabtu - Minggu: 10.30 - 17.00</p>
-  </div>
-</div>
-<div class="bottom">
-  <p>&copy; 2024 Rukita. All rights reserved.</p>
-  <a href="#">Syarat &amp; Ketentuan</a>
-  <a href="#">Kebijakan Privasi</a>
-  <div class="social-icons">
-    <a href="#">
-      <i class="fab fa-facebook-f"></i>
-    </a>
-    <a href="#">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="#">
-      <i class="fab fa-twitter"></i>
-    </a>
-    <a href="#">
-      <i class="fab fa-tiktok"></i>
-    </a>
-  </div>
-</div>
-</div>

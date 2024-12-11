@@ -207,6 +207,11 @@ class kosmapusController extends Controller
     {
         return view('gallery');
     }
+   
+    public function faq()
+    {
+        return view('faq');
+    }
 
 
 
@@ -345,11 +350,6 @@ class kosmapusController extends Controller
     public function destroy(string $id)
     {
         //
-    }
-
-    public function faq()
-    {
-        return view('faq');
     }
 
     public function showGallery($id)
