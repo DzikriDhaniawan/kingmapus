@@ -58,7 +58,9 @@
       <div>
         <div class="price" style="margin-left: 20px;">{{ $detailKost->hargaKos }} <span>/bulan</span></div>
         <div class="actions">
-          <i class="fas fa-comment-dots chat-icon"></i>
+          <a href="https://wa.me/6285969084584" target="_blank">
+            <i class="fas fa-comment-dots chat-icon"></i>
+          </a>
           <a href="/pembayaran" style="text-decoration: none;">
           <div class="button">Pesan Sekarang</div></a>
         </div>

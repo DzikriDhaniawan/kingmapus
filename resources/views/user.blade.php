@@ -20,7 +20,7 @@
         <div class="nav">
           <a href="#search-bar">Cari Kos</a>
           <a href="#footer">Hubungi Kami</a>
-          <a href="#footer">FAQ</a>
+          <a href="/faq">FAQ</a>
           <a href="/tentang">Tentang KosMaPus</a>
         </div>
         <div class="right">
@@ -38,7 +38,7 @@
         <div class="nav">
           <a href="#search-bar">Cari Kos</a>
           <a href="#footer">Hubungi Kami</a>
-          <a href="#footer">FAQ</a>
+          <a href="/faq">FAQ</a>
           <a href="/tentang">Tentang KosMaPus</a>
         </div>
         <div class="right">
@@ -321,8 +321,6 @@
         <h3>Resource</h3>
         <p><a href="/tentang" style="color: white;">Tentang KosMaPus</a></p>
         <p><a href="/faq" style="color: white;">FAQ</a></p>
-        <p><a href="#" style="color: white;">Karir</a></p>
-        <p><a href="#" style="color: white;">Stories</a></p>
       </div>
       <div class="column">
         <h3 style="margin-bottom: 20px;">Support</h3>

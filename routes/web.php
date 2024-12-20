@@ -21,6 +21,8 @@ use App\Http\Controllers\galleryController;
 */
 
 Route::resource('/', KosmapusController::class);
+Route::get('/', [KosmapusController::class, 'index']);
+
 Route::get('auth/login', [KosmapusController::class, 'LoginForm'])->name('login.form'); // Untuk menampilkan form login
 Route::post('auth/login', [KosmapusController::class, 'Login'])->name('login.pp'); // Untuk memproses login
 Route::get('auth/daftar', [KosmapusController::class, 'daftar'])->name('daftar.form'); // menampilkan form daftar
