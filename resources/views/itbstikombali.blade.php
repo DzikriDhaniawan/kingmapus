@@ -34,7 +34,7 @@
 
       <div class="banner">
     <img src="img/unudjim.png" alt="Background Image" class="background-image">
-    <h1>Kos Daerah Udayana</h1>
+    <h1>Kos Daerah ITB Stikom Bali</h1>
 </div>
 
 <div class="latest-properties">
