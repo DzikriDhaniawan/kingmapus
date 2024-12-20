@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="header">
-            Informasi Pribadi
+            Informasi Pribadiss
         </div>
 
         @if(session('success'))
